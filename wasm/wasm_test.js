@@ -3,8 +3,8 @@ let wasm;
 /**
 * @returns {number}
 */
-export function get_value_ptr() {
-    const ret = wasm.get_value_ptr();
+export function get_value() {
+    const ret = wasm.get_value();
     return ret;
 }
 
