@@ -1,3 +1,3 @@
-import init from "./pkg/webgl_cube.js";
+import init from "./pkg/webgl_triangle.js";
 
 init();
